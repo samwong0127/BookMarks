@@ -1,0 +1,94 @@
+body {
+    background-image: url("image/book-3480216_960_720.jpg");
+    display:flex;
+    background-size: cover;
+    margin: 25px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+*{
+    font-family:sans-serif;
+    box-sizing: border-box;
+    color:white;
+}
+
+form {
+    margin: 100px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px 20px 50px 20px;
+    background: #414141;
+    min-height: 350px;
+    
+    
+    
+}
+h1 {
+  margin-bottom: 100px;
+  color:white;
+}
+
+input{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    width:90%;
+    display:block;
+}
+
+button{
+    float: left;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+button:hover{
+    opacity: .8;
+}
+
+.error{
+    opacity: .8;
+    background-color: #EB7373;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.complete{
+    opacity: .8;
+    background-color: #00BFFF;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+
+.container{
+    max-width: 100px;
+    min-height: 400px;
+}
+
+#login_form, #signup_form{
+    
+    margin: 25px;
+}
+
+#login, #signup{
+    margin: 25px;
+}
+
+
+
+
+
+

@@ -1,0 +1,168 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@900&display=swap');
+
+body {
+    background-image: url("image/book-3480216_960_720.jpg");
+    background-color: #414141;
+    display:flex;
+    background-repeat: no-repeat;
+    margin: 40px 40px 40px 40px;
+    background-size: cover;
+    height: 100%;
+	
+    font-family:'Noto Sans HK', sans-serif;
+}
+
+h4,h5 {
+	text-align:center;
+	margin: auto;
+}
+
+
+.error{
+    opacity: .8;
+    background-color: #EB7373;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.content{
+	border: 5px solid;
+	border-radius: 10px;
+    background-color:white;
+	padding: 20px 40px 40px 40px;
+	height:200%;
+    width: 200%;
+    color: black;
+}
+
+.box-left {
+	float:left;
+	width:10%;
+	border: 4px solid;
+	border-radius: 10px;
+    padding: 20px 20px 10px;
+	margin:  30px 10px 10px;
+
+
+	
+}
+
+.box-right {
+	float:right;
+	width: 100%;
+	border: 4px solid;
+	border-radius: 10px;
+    padding: 10px 10px 10px;
+	margin:  30px 10px 10px;
+	
+}
+
+
+
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: relative;
+  bottom: 0;
+  right: 25%;
+  left: 25%;
+  border: 4px solid;
+  z-index: 9;
+  padding: 10px 10px 10px;
+  max-width:600px;
+  
+}
+
+/* Add styles to the form container */
+.form-container {
+  padding: 10px;
+  background-color: white;
+  width:160px;
+  margin: auto;
+  
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+.form-container{
+  color: black;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
+
+
+
+.searchCol {
+	border: 4px solid;
+	border-radius: 10px;
+    padding: 10px 10px 5px;
+	margin:  10px 10px 5px;
+	
+}
+
+.buttonCol {
+	border: 4px solid;
+	border-radius: 10px;
+    padding: 10px 10px 5px;
+	margin:  10px 10px 5px;
+}
+
+#siteAttribute, #bookAttribute {
+	border: 4px solid;
+	border-radius: 10px;
+    padding: 10px 10px 5px;
+	margin:  10px 10px 5px;	
+}
+
+#siteContent, #bookContent {
+	border: 2px solid;
+	border-radius: 10px;
+    padding: 10px 10px 5px;
+	margin:  10px 10px 5px;
+	max-height: 600px;
+	overflow:scroll;
+}
+
+#refreshSpinner, #siteSpinner, #bookSpinner{
+    display:none;
+    left:50%;
+    top:50%;
+    margin:0 10px 5px 10px;
+}
+#switchToSpinner{
+    display:none;
+    margin:0 10px 5px 10px;
+}
+
