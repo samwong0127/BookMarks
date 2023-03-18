@@ -22,15 +22,15 @@ The remaining .PHP files execute different queries when called. Details in `Imag
 
 ## UI
 #### Index page
-![index](Image/readme/index.jpg)
+![index](image/readme/index.jpg)
 #### Home - bookmarks page
-![index](Image/readme/home_bookmarks.jpg)
+![index](image/readme/home_bookmarks.jpg)
 #### Home - bookmarks page when sorted By Date Created
-![index](Image/readme/home_bookmarks_sortByDateCreated.jpg)
+![index](image/readme/home_bookmarks_sortByDateCreated.jpg)
 #### Home - book page
-![index](Image/readme/home_books.jpg)
+![index](image/readme/home_books.jpg)
 #### Edit a bookmarks
-![index](Image/readme/editBookmarks.jpg)
+![index](image/readme/editBookmarks.jpg)
 #### Books with links
-![index](Image/readme/home_book_with_link.jpg)
+![index](image/readme/home_book_with_link.jpg)
 
