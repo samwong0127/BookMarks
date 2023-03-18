@@ -18,7 +18,7 @@ To tackle the issue, a new bookmarks application is introduced. The primary func
 |conn_test.php | Set up connection to the database|
 |image|Pictures used by BookMarks|
 
-The remaining .PHP files execute different queries when called. Details in `Image/readme` folder
+The remaining .PHP files execute different queries when called. Details in `image/readme/php-details-#.jpg` 
 
 ## UI
 #### Index page
